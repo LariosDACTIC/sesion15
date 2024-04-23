@@ -22,7 +22,7 @@ public class ManejoExcepciones {
 
             try {
 
-                if (contador <= 3) {
+                if (contador <= 4) {
                     // Bloque de codigo donde puede ocurrir la excepcion
                     System.out.println("Ingrese numerador entero");
                     int numerador = leer.nextInt();
